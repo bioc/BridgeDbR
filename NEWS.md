@@ -1,3 +1,7 @@
+# BridgeDbR 2.17.1
+
+* Updated to BridgeDb 3.0.28
+
 # BridgeDbR 2.11.2
 
 BUG FIXES
