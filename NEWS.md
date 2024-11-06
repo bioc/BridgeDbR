@@ -1,6 +1,8 @@
 # BridgeDbR 2.17.1
 
 * Updated to BridgeDb 3.0.28
+* Added CiTO annotation to the vignette (not visible in the HTML)
+* Added session info to the vignette
 
 # BridgeDbR 2.11.2
 

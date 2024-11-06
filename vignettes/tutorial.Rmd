@@ -2,23 +2,17 @@
 title: "BridgeDbR Tutorial"
 author: "Egon Willighagen"
 package: BridgeDbR
-output: 
+output:
   BiocStyle::html_document:
     toc_float: true
     includes:
       in_header: bioschemas.html
+  BiocStyle::pdf_document: default
 vignette: >
   %\VignetteIndexEntry{Tutorial}
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}  
+  %\VignetteEncoding{UTF-8}
 bibliography: tutorial.bib
-csl: biomed-central.csl
-references:
-- id: dummy
-  title: no title
-  author:
-  - family: noname
-    given: noname
 ---
 
 # Introduction
@@ -202,4 +196,13 @@ With this mapper you can then map metabolite identifiers:
 map(mapper, "456", source = "Cs", target = "Ck")
 ```
 
-# References
+# References {.unnumbered}
+
+# Session info
+
+Here is the output of `sessionInfo()` on the system on which this document was
+compiled running pandoc `r rmarkdown::pandoc_version()`:
+
+```{r sessionInfo, echo=FALSE}
+sessionInfo()
+```
